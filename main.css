@@ -32,6 +32,7 @@ body {
 	width:300px;
 	height:250px;
 	margin:auto;
+	cursor:pointer;
 }
 
 #bottle1-glow {
@@ -43,6 +44,7 @@ body {
 	width:300px;
 	height:250px;
 	margin:auto;
+	cursor:pointer;
 
 	-webkit-animation-name: blinker;  
 	-webkit-animation-iteration-count: infinite;  
@@ -63,8 +65,8 @@ body {
 	
 	background-image:url('media/gol_click.png');
 	background-repeat:no-repeat;
-	width:165px;
-	height:78px;
+	width:143px;
+	height:69px;
 
 	-webkit-animation-name: press-here;  
 	-webkit-animation-iteration-count: infinite;
@@ -88,15 +90,15 @@ body {
 
 #bottle2 {
 	position:relative;
-	left:192px;
+	left:170px;
 	top:50px;
 	float:left;	
 	z-index:1001;
 	
 	background-image:url('media/Bet_Now.png');
 	background-repeat:no-repeat;
-	width:84px;
-	height:27px;
+	width:108px;
+	height:51px;
 	margin:auto;	
 
 	-webkit-animation-name: bottle2;  
@@ -107,8 +109,8 @@ body {
 }
 
 @-webkit-keyframes bottle2 {  
-  from { top: 60px; }
-  to { top: 65px; }
+  from { top: 100px; }
+  to { top: 90px; }
 }
 
 #facebook {
@@ -138,15 +140,15 @@ body {
 
 #tagline {
 	position:relative;
-	top:57px;
-	left:10px;
+	top:68px;
+	left:36px;
 	float:left;	
 	z-index:1002;
 	
 	background-image:url('media/copy.png');
 	background-repeat:no-repeat;
-	width:265px;
-	height:150px;
+	width:213px;
+	height:83px;
 	margin:auto;	
 }
 
